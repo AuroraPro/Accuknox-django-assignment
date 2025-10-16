@@ -19,8 +19,6 @@ accuknox-django-assignment/
 │ └── rectangle.py
 └── manage.py
 
-text
-
 ## Setup
 
 Clone the repo
@@ -38,7 +36,6 @@ Run migrations
 
 python manage.py migrate
 
-text
 
 ## Running the Tests
 
@@ -46,13 +43,11 @@ text
 
 python manage.py test signals_demo.test_signals -v 2
 
-text
 
 **For Rectangle Class:**
 
 python custom_classes/rectangle.py
 
-text
 
 ## Answers
 
@@ -89,12 +84,10 @@ def init(self, length: int, width: int):
 self.length = length
 self.width = width
 
-text
 def __iter__(self):
     yield {'length': self.length}
     yield {'width': self.width}
 
-text
 
 When you iterate over it:
 
@@ -105,7 +98,6 @@ Output:
 {'length': 10}
 {'width': 5}
 
-text
 
 ## Technologies Used
 
